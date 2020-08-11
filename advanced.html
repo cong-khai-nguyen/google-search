@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <header style="text-align:left; background-color:#E8E8E8; height:70px;">
+            <form action="index.html">
+                <input type="image" style="margin:20px 10px 20px 10px;" width="100px" height="33px" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="googlelogo">
+            </form>
+        </header>
+
+        <div id="ad">
+            Advanced Search
+        </div>
+
+        <div style="border-bottom: 1px solid Gainsboro;"></div>
+
+        <div>
+            <table>
+                <thead>
+                    <td>Find pages with...</td>
+                    <td></td>
+                </thead>
+                <tbody">
+                    <tr>
+                        <td>all these words:</td>
+                        <td >
+                            <form action="https://google.com/search">
+                                <input  class="form-control" type="text" name="as_q" style="height:28px; border-radius: 0px; width:350px;">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>this exact word or phrase:</td>
+                        <td >
+                            <form action="https://google.com/search">
+                                <input  class="form-control" type="text" name="as_epq" style="height:28px; border-radius: 0px; width:350px;">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>any of these words:</td>
+                        <td>
+                            <form action="https://google.com/search">
+                                <input  class="form-control" type="text" name="as_oq" style="height:28px; border-radius: 0px; width:350px;">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>none of these words:</td>
+                        <td >
+                            <form action="https://google.com/search">
+                                <input  class="form-control" type="text" name="as_eq" style="height:28px; border-radius: 0px; width:350px;">
+                            </form>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
